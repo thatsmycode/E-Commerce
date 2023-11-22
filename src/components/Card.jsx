@@ -1,3 +1,5 @@
+import './card.css';
+
 const Card = (props) => {
    // const {product} = props;
    const product = {
@@ -6,13 +8,18 @@ const Card = (props) => {
                         "price":5,
                         "category": "cap",
                         "id":1,
-                        "imageUrl":"./public/cap_1.jpg"
+                        "imageUrl":"./images/cap_1.jpg"
                     }
 
     return (
         <>
             <article className="card-product">
-                <img src={imageUrl} 
+                <img src={product.imageUrl} />
+                <div>
+                    <p className="card-bread-select">{product.title}</p>
+                    <p className="card-price">{product.price + " €"}</p>
+                    <button className="btn">View Product</button>
+                </div>
             </article>
         </>
     );

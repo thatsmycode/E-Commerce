@@ -1,0 +1,30 @@
+img{
+    border-radius: 10px;
+}
+.addToCart-btn{
+    background-color: rgb(00R6009);
+
+}
+.product-container{
+    padding: 30px;
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.product-img{
+    height:80%;
+    width: 60%;
+  }
+.product-price{
+    color:white;
+}
+  .size-btn{
+    background-color: black;
+    border: 0;
+  }
+  .product-description{
+    color:white;
+  }

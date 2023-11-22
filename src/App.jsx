@@ -1,18 +1,22 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Gallery from './components/Gallery';
+
+
+import products from "../products.json";
+import Product from "./components/Product";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [selectedProduct, setSelectedProduct] = useState(products[0])
 
   return (
     <>
       <div>
-        <Navbar />
-        <Gallery />
-        <Footer />
+       
+        <div className="content">
+          <Product selectedProduct={selectedProduct}></Product>
+        </div>
+        
+       
       </div>
     </>
   )

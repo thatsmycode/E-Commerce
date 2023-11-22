@@ -5,6 +5,7 @@ import Card from "./Card";
 const Gallery = () => {
   
     return(
+        <>
         {
         products.map((each, index)=>{
             return (
@@ -12,6 +13,7 @@ const Gallery = () => {
             )
         })
         }
+        </>
     )
 }
 export default Gallery;

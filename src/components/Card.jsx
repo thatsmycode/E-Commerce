@@ -1,10 +1,19 @@
-const Card = () => {
+const Card = (props) => {
+   // const {product} = props;
+   const product = {
+                        "title":"Planetaria Cap",
+                        "description":"temporary description",
+                        "price":5,
+                        "category": "cap",
+                        "id":1,
+                        "imageUrl":"./public/cap_1.jpg"
+                    }
 
     return (
         <>
-
-        {console.log("1")}
-    
+            <article className="card-product">
+                <img src={imageUrl} 
+            </article>
         </>
     );
 }

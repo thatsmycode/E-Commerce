@@ -8,7 +8,7 @@ import Product from "./components/Product";
 
 function App() {
   const [selectedProduct, setSelectedProduct] = useState(products[0])
-  
+
   const [cart, setCart] = useState([]);
 
   const addToCart =(productToAdd)=>{

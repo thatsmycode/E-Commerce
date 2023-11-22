@@ -3,7 +3,7 @@
     height: 286px;;
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     overflow: hidden;
 }
 
@@ -21,4 +21,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin: 16px 0;
+}
+
+.card-product img {
+    border-radius: 8px;
+    margin: 0 0 16px 0;
 }

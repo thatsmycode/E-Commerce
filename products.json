@@ -5,7 +5,7 @@
         "price":5,
         "category": "cap",
         "id":1,
-        "imageUrl":"./public/cap_1.jpg"
+        "imageUrl":"public/images/cap_1.jpg"
     },
     {
         "title":"Planetaria Mug",
@@ -13,7 +13,7 @@
         "price":7,
         "category": "Mug",
         "id":2,
-        "imageUrl":"./public/mug_1.jpg"
+        "imageUrl":"public/mug_1.jpg"
     },
     {
         "title":"Totebag Planetaria",
@@ -21,7 +21,7 @@
         "price":35,
         "category": "Totebag",
         "id":3,
-        "imageUrl":"./public/tshirt_1.jpg"
+        "imageUrl":"public/tshirt_1.jpg"
     },
     {
         "title":"Alien T-shirt",
@@ -29,7 +29,7 @@
         "price":20,
         "category": "T-shirt",
         "id":4,
-        "imageUrl":"./public/tshirt_2.jpg"
+        "imageUrl":"public/tshirt_2.jpg"
     },
     {
         "title":"Black Alien T-shirt",
@@ -37,7 +37,7 @@
         "price":20,
         "category": "T-shirt",
         "id":5,
-        "imageUrl":"./public/tshirt_3.jpg"
+        "imageUrl":"public/tshirt_3.jpg"
     },
     {
         "title":"Monster T-shirt",
@@ -45,7 +45,7 @@
         "price":20,
         "category": "T-shirt",
         "id":6,
-        "imageUrl":"./public/tshirt_4.jpg"
+        "imageUrl":"public/tshirt_4.jpg"
     },
     {
         "title":"Spaceship T-shirt",
@@ -53,7 +53,7 @@
         "price":20,
         "category": "T-shirt",
         "id":7,
-        "imageUrl":"./public/tshirt_4.jpg"
+        "imageUrl":"public/tshirt_4.jpg"
     },
     {
         "title":"Planetaria T-shirt",
@@ -61,6 +61,6 @@
         "price":20,
         "category": "T-shirt",
         "id":8,
-        "imageUrl":"./public/tshirt_5.jpg"
+        "imageUrl":"public/tshirt_5.jpg"
     }
 ]

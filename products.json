@@ -1,0 +1,66 @@
+[
+    {
+        "title":"Planetaria Cap",
+        "description":"temporary description",
+        "price":5,
+        "category": "cap",
+        "id":1,
+        "imageUrl":"./public/cap_1.jpg"
+    },
+    {
+        "title":"Planetaria Mug",
+        "description":"temporary description",
+        "price":7,
+        "category": "Mug",
+        "id":2,
+        "imageUrl":"./public/mug_1.jpg"
+    },
+    {
+        "title":"Totebag Planetaria",
+        "description":"temporary description",
+        "price":35,
+        "category": "Totebag",
+        "id":3,
+        "imageUrl":"./public/tshirt_1.jpg"
+    },
+    {
+        "title":"Alien T-shirt",
+        "description":"temporary description",
+        "price":20,
+        "category": "T-shirt",
+        "id":4,
+        "imageUrl":"./public/tshirt_2.jpg"
+    },
+    {
+        "title":"Black Alien T-shirt",
+        "description":"temporary description",
+        "price":20,
+        "category": "T-shirt",
+        "id":5,
+        "imageUrl":"./public/tshirt_3.jpg"
+    },
+    {
+        "title":"Monster T-shirt",
+        "description":"temporary description",
+        "price":20,
+        "category": "T-shirt",
+        "id":6,
+        "imageUrl":"./public/tshirt_4.jpg"
+    },
+    {
+        "title":"Spaceship T-shirt",
+        "description":"temporary description",
+        "price":20,
+        "category": "T-shirt",
+        "id":7,
+        "imageUrl":"./public/tshirt_4.jpg"
+    },
+    {
+        "title":"Planetaria T-shirt",
+        "description":"temporary description",
+        "price":20,
+        "category": "T-shirt",
+        "id":8,
+        "imageUrl":"./public/tshirt_5.jpg"
+    }
+]

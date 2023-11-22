@@ -22,8 +22,9 @@ function App() {
       <div>
        <Navbar />
         <div className="content">
-          <Product selectedProduct={selectedProduct} addToCart={addToCart}></Product>
-        {/*<Gallery selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct} />*/}
+         <Product selectedProduct={selectedProduct} addToCart={addToCart}></Product>
+        {/* <Gallery selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct} />*/}
+        
         </div>
         <Footer />
        

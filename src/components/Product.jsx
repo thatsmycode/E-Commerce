@@ -5,6 +5,7 @@ const Product = (props) => {
     const [productHaveSize, setProductHaveSize] = useState(false);
     const [productWithSize, setProductWithSize] = useState("m");
     const [quantity, setQuantity] = useState(1);
+ 
 
     const {title, description, price, category, id, imageUrl} = props.selectedProduct;
 

@@ -1,0 +1,13 @@
+#footer {
+    background-color: black;
+}
+
+#footer-div1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-div2{
+    display: flex;
+    justify-content: space-around;
+}

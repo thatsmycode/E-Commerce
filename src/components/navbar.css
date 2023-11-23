@@ -4,10 +4,7 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(0, 0, 0);
-    margin-bottom: 10px;
     align-items: center;
-    padding: 10px;
     color:white;
     text-align: center;
-    
   }

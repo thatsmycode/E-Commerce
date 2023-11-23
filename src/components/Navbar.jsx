@@ -8,7 +8,7 @@ const NavBar = () => {
 
 return (
     <nav id="navbar">
-        <Link to="/"><img src="../public/images/planetaria-logo.png" alt="" /></Link>
+        <Link to="/Home"><img src="../public/images/planetaria-logo.png" alt="" /></Link>
         <p>Planetaria Music</p>
         <img src="../public/images/e-commerce.png" alt="carrito-ecomerce" />
         <img src="../public/images/navbar-filter.png" alt="navbar-filter"/>

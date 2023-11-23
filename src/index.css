@@ -10,7 +10,7 @@ body {
   background-color: black;
 }
 
-button {
+.btn {
     color: black;
     padding: 10px 42px;
     border-radius: 8px;

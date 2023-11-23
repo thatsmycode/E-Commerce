@@ -1,11 +1,12 @@
 import {useState} from "react";
 import products from "../../products.json"
 import Card from "./Card";
+import './gallery.css'
 
 const Gallery = () => {
   
     return(
-        <>
+        <div className="gallery-content">
         {
         products.map((each, index)=>{
             return (
@@ -13,7 +14,7 @@ const Gallery = () => {
             )
         })
         }
-        </>
+        </div>
     )
 }
 export default Gallery;

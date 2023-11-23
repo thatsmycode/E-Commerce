@@ -22,7 +22,9 @@ const handleViewProduct= () =>{
     return (
         <>
             <article className="card-product">
-                <img src={product.imageUrl} />
+                <div className='card-product-img'>
+                    <img src={product.imageUrl} />
+                </div>
                 <div>
                     <p className="card-bread-select">{product.title}</p>
                     <p className="card-price">{product.price + " €"}</p>

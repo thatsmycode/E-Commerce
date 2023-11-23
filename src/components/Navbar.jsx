@@ -1,4 +1,5 @@
 import './navbar.css'
+import {Link} from "react-router-dom";
 // more imports if required goes here
 
 const NavBar = () => {
@@ -7,7 +8,7 @@ const NavBar = () => {
 
 return (
     <nav id="navbar">
-        <img src="../public/images/planetaria-logo.png" alt="" />
+        <Link to="/"><img src="../public/images/planetaria-logo.png" alt="" /></Link>
         <p>Planetaria Music</p>
         <img src="../public/images/e-commerce.png" alt="carrito-ecomerce" />
         <img src="../public/images/navbar-filter.png" alt="navbar-filter"/>

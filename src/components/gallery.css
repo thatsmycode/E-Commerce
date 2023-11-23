@@ -2,5 +2,21 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin: 0px 15px 20px 15px;
+    margin: 0px 0 20px 0;
+    justify-content: center;
+}
+
+.category-filter {
+    margin-left: 13px;
+}
+
+.category-filter button{
+    border-style: none;
+    background-color: transparent;
+    padding: 0px 6px 20px 6px;
+}
+
+.category-filter button h1 {
+    font-size: 16px;
+    font-weight: 400;
 }

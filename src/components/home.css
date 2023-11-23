@@ -1,0 +1,50 @@
+#new-arrivals {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+#home-btn {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--24px, 24px);
+}
+
+#coming-events {
+    display: flex;
+    height: 269px;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    padding: 7px 0 240px 0; /* Adjusted padding for the scrollbar */
+    align-items: center;
+}
+
+.carousel-container {
+    display: flex;
+}
+
+.carousel-item {
+    flex: 0 0 auto; /* Ensure the items don't grow and maintain their original size */
+    margin-right: 10px; /* Adjust the spacing between carousel items */
+}
+
+#coming-events p {
+    margin-bottom: 0; /* Remove default margin for paragraphs */
+}
+
+#coming-events img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain the aspect ratio of the images */
+    border-radius: 8px; /* Add rounded corners to the images if desired */
+}
+
+
+#home-footer {
+    display: flex;
+    width: 398px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}

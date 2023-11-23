@@ -1,7 +1,7 @@
 [
     {
         "title":"Planetaria Cap",
-        "description":"temporary description",
+        "description":"Iconic alternative music style in a comfy, vintage-inspired, unisex cotton cap.",
         "price":5,
         "category": "Cap",
         "id":1,
@@ -9,7 +9,7 @@
     },
     {
         "title":"Planetaria Mug",
-        "description":"temporary description",
+        "description":"Iconic alternative music style in a comfy, vintage-inspired, unisex cotton mug.",
         "price":7,
         "category": "Mug",
         "id":2,
@@ -17,7 +17,7 @@
     },
     {
         "title":"Totebag Planetaria",
-        "description":"temporary description",
+        "description":"Iconic alternative music style in a comfy, vintage-inspired, unisex cotton totebag.",
         "price":35,
         "category": "Totebag",
         "id":3,
@@ -33,7 +33,7 @@
     },
     {
         "title":"Black Alien T-shirt",
-        "description":"temporary description",
+        "description":"Iconic alternative music style in a comfy, vintage-inspired, unisex cotton totebag",
         "price":20,
         "category": "T-shirt",
         "id":5,
@@ -41,7 +41,7 @@
     },
     {
         "title":"Monster T-shirt",
-        "description":"temporary description",
+        "description":"Iconic alternative music style in a comfy, vintage-inspired, unisex cotton totebag",
         "price":20,
         "category": "T-shirt",
         "id":6,
@@ -49,7 +49,7 @@
     },
     {
         "title":"Spaceship T-shirt",
-        "description":"temporary description",
+        "description":"Iconic alternative music style in a comfy, vintage-inspired, unisex cotton totebag",
         "price":20,
         "category": "T-shirt",
         "id":7,
@@ -57,7 +57,7 @@
     },
     {
         "title":"Planetaria T-shirt",
-        "description":"temporary description",
+        "description":"Iconic alternative music style in a comfy, vintage-inspired, unisex cotton totebag",
         "price":20,
         "category": "T-shirt",
         "id":8,

@@ -56,7 +56,7 @@ const Product = (props) => {
                 <button onClick={()=> handleSize("l")} className="size-btn"><img className="size-img" src="../../public/images/SizeL.png"></img></button>
                 <button onClick={()=> handleSize("xl")} className="size-btn"><img className="size-img" src="../../public/images/SizeXL.png"></img></button>
             </div>
-            <button onClick={()=> handleBuy() }>Add to cart</button>
+            <button className="btn" onClick={()=> handleBuy() }>Add to cart</button>
         </div>
     )
 }

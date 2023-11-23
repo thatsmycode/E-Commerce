@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import './card.css';
 import {Link} from "react-router-dom";
 
 
 const Card = (props) => {
-    const {setSelectedProduct} = props;
+    const { selectedProduct, setSelectedProduct} = props;
    const {product} = props;
    /*const product = {
                         "title":"Planetaria Cap",
@@ -15,7 +16,8 @@ const Card = (props) => {
                     }*/
 const handleViewProduct= () =>{
     setSelectedProduct(product);
-    <Link to="/store/product-details"/>
+    console.log(selectedProduct,"console");
+ 
 }
     return (
         <>
@@ -24,7 +26,7 @@ const handleViewProduct= () =>{
                 <div>
                     <p className="card-bread-select">{product.title}</p>
                     <p className="card-price">{product.price + " €"}</p>
-                    <button onClick={()=>handleViewProduct()} className="btn">View Product</button>
+                    <Link to="/store/product-details"><button onClick={()=>handleViewProduct()} className="btn">View Product</button></Link>
                 </div>
             </article>
         </>

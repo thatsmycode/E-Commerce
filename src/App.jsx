@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import products from "../products.json";
 import Product from "./components/Product";
 import Gallery from './components/Gallery';
-import { Routes, Route, Link ,Navigate} from "react-router-dom";
+import { Routes, Route, Navigate} from "react-router-dom";
 
 
 function App() {
@@ -21,18 +21,18 @@ function App() {
 
   return (
     <>
-      <div>
+     
         <Navbar />
         <div className="content">
           <Routes>
             <Route path="/" element={<Navigate to="/store"/>} />
-            <Route path="/store" elemment={<Gallery setSelectedProduct={setSelectedProduct} />} />
+            <Route path="/store" element={<Gallery selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct} />} />
             <Route path="/store/product-details" element={<Product selectedProduct={selectedProduct} addToCart={addToCart} />} />
           </Routes>
         </div>
         <Footer />
 
-      </div>
+      
     </>
   )
 }

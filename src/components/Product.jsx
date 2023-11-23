@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import "./product.css";
 import { useParams } from "react-router-dom";

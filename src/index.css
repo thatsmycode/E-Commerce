@@ -19,3 +19,7 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
+
+.content {
+    padding: 0 13px 30px 13px;
+}

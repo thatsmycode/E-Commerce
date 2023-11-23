@@ -6,14 +6,7 @@ import {Link} from "react-router-dom";
 const Card = (props) => {
     const { selectedProduct, setSelectedProduct} = props;
    const {product} = props;
-   /*const product = {
-                        "title":"Planetaria Cap",
-                        "description":"temporary description",
-                        "price":5,
-                        "category": "cap",
-                        "id":1,
-                        "imageUrl":"./images/cap_1.jpg"
-                    }*/
+
 const handleViewProduct= () =>{
     setSelectedProduct(product);
     console.log(selectedProduct,"console");

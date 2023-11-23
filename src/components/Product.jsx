@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import "./product.css";
-import { useParams } from "react-router-dom";
+
 
 const Product = (props) => {
     const [productHaveSize, setProductHaveSize] = useState(false);
@@ -50,11 +50,11 @@ const Product = (props) => {
                 </div>
             </div>
             <div className="sizes">
-                <button onClick={()=> handleSize("xs")} className="size-btn"><img className="size-img" src="../../public/images/SizeXS.png"></img></button>
-                <button onClick={()=> handleSize("s")} className="size-btn"><img className="size-img" src="../../public/images/SizeS.png"></img></button>
-                <button onClick={()=> handleSize("m")} className="size-btn"><img className="size-img" src="../../public/images/SizeM.png"></img></button>
-                <button onClick={()=> handleSize("l")} className="size-btn"><img className="size-img" src="../../public/images/SizeL.png"></img></button>
-                <button onClick={()=> handleSize("xl")} className="size-btn"><img className="size-img" src="../../public/images/SizeXL.png"></img></button>
+                <button onClick={()=> handleSize("xs")} className="size-btn"><img className="size-img" src="/images/SizeXS.png"></img></button>
+                <button onClick={()=> handleSize("s")} className="size-btn"><img className="size-img" src="/images/SizeS.png"></img></button>
+                <button onClick={()=> handleSize("m")} className="size-btn"><img className="size-img" src="/images/SizeM.png"></img></button>
+                <button onClick={()=> handleSize("l")} className="size-btn"><img className="size-img" src="/images/SizeL.png"></img></button>
+                <button onClick={()=> handleSize("xl")} className="size-btn"><img className="size-img" src="/images/SizeXL.png"></img></button>
             </div>
             <button className="btn" onClick={()=> handleBuy() }>Add to cart</button>
         </div>

@@ -3,7 +3,7 @@
         "title":"Planetaria Cap",
         "description":"temporary description",
         "price":5,
-        "category": "cap",
+        "category": "Cap",
         "id":1,
         "imageUrl":"/images/cap_1.jpg"
     },
@@ -25,7 +25,7 @@
     },
     {
         "title":"Alien T-shirt",
-        "description":"temporary description",
+        "description":"Iconic alternative music style in a comfy, vintage-inspired, unisex cotton shirt.",
         "price":20,
         "category": "T-shirt",
         "id":4,

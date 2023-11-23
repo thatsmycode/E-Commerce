@@ -1,11 +1,16 @@
 #footer {
     background-color: black;
+    color: white;
+    
 }
 
 #footer-div1{
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    
+}    
 
 #footer-div2{
     display: flex;

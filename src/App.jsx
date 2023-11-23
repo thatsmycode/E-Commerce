@@ -8,7 +8,7 @@ import Product from "./components/Product";
 
 function App() {
   const [selectedProduct, setSelectedProduct] = useState(products[0])
-  
+
   const [cart, setCart] = useState([]);
 
   const addToCart =(productToAdd)=>{
@@ -22,8 +22,9 @@ function App() {
       <div>
        <Navbar />
         <div className="content">
-          <Product selectedProduct={selectedProduct} addToCart={addToCart}></Product>
-        {/*<Gallery selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct} />*/}
+         <Product selectedProduct={selectedProduct} addToCart={addToCart}></Product>
+        {/* <Gallery selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct} />*/}
+        
         </div>
         <Footer />
        

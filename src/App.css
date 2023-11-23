@@ -1,7 +1,8 @@
-#root {
-  
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;

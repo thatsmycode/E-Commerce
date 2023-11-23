@@ -1,0 +1,30 @@
+.card-product {
+    width: 200px;
+    height: 286px;;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 8px; */
+    overflow: hidden;
+}
+
+.card-bread-select {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-price {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 16px 0;
+}
+
+.card-product img {
+    border-radius: 8px;
+    margin: 0 0 16px 0;
+}

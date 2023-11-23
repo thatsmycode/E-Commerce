@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 
 import products from "../products.json";
 import Product from "./components/Product";
+import Gallery from './components/Gallery';
 
 function App() {
   const [selectedProduct, setSelectedProduct] = useState(products[0])
@@ -23,7 +24,7 @@ function App() {
        <Navbar />
         <div className="content">
          <Product selectedProduct={selectedProduct} addToCart={addToCart}></Product>
-        {/* <Gallery selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct} />*/}
+        {/* <Gallery selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct} /> */}
         
         </div>
         <Footer />

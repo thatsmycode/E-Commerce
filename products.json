@@ -3,9 +3,9 @@
         "title":"Planetaria Cap",
         "description":"temporary description",
         "price":5,
-        "category": "cap",
+        "category": "Cap",
         "id":1,
-        "imageUrl":"images/cap_1.jpg"
+        "imageUrl":"/images/cap_1.jpg"
     },
     {
         "title":"Planetaria Mug",
@@ -13,7 +13,7 @@
         "price":7,
         "category": "Mug",
         "id":2,
-        "imageUrl":"images/mug_1.jpg"
+        "imageUrl":"/images/mug_1.jpg"
     },
     {
         "title":"Totebag Planetaria",
@@ -21,15 +21,15 @@
         "price":35,
         "category": "Totebag",
         "id":3,
-        "imageUrl":"images/totebag_1.jpg"
+        "imageUrl":"/images/totebag_1.jpg"
     },
     {
         "title":"Alien T-shirt",
-        "description":"temporary description",
+        "description":"Iconic alternative music style in a comfy, vintage-inspired, unisex cotton shirt.",
         "price":20,
         "category": "T-shirt",
         "id":4,
-        "imageUrl":"images/tshirt_1a.jpg"
+        "imageUrl":"/images/tshirt_1a.jpg"
     },
     {
         "title":"Black Alien T-shirt",
@@ -37,7 +37,7 @@
         "price":20,
         "category": "T-shirt",
         "id":5,
-        "imageUrl":"images/tshirt_2.jpg"
+        "imageUrl":"/images/tshirt_2.jpg"
     },
     {
         "title":"Monster T-shirt",
@@ -45,7 +45,7 @@
         "price":20,
         "category": "T-shirt",
         "id":6,
-        "imageUrl":"images/tshirt_3.jpg"
+        "imageUrl":"/images/tshirt_3.jpg"
     },
     {
         "title":"Spaceship T-shirt",
@@ -53,7 +53,7 @@
         "price":20,
         "category": "T-shirt",
         "id":7,
-        "imageUrl":"images/tshirt_4.jpg"
+        "imageUrl":"/images/tshirt_4.jpg"
     },
     {
         "title":"Planetaria T-shirt",
@@ -61,6 +61,6 @@
         "price":20,
         "category": "T-shirt",
         "id":8,
-        "imageUrl":"images/tshirt_5.jpg"
+        "imageUrl":"/images/tshirt_5.jpg"
     }
 ]

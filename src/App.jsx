@@ -26,8 +26,8 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Navigate to="/store"/>} />
-            <Route path="/store" elemment={<Gallery selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct} />} />
-            <Route path="/store/:id" element={<Product selectedProduct={selectedProduct} addToCart={addToCart} />} />
+            <Route path="/store" elemment={<Gallery setSelectedProduct={setSelectedProduct} />} />
+            <Route path="/store/product-details" element={<Product selectedProduct={selectedProduct} addToCart={addToCart} />} />
           </Routes>
         </div>
         <Footer />

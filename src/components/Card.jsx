@@ -1,16 +1,22 @@
 import './card.css';
+import {Link} from "react-router-dom";
+
 
 const Card = (props) => {
-   // const {product} = props;
-   const product = {
+    const {setSelectedProduct} = props;
+   const {product} = props;
+   /*const product = {
                         "title":"Planetaria Cap",
                         "description":"temporary description",
                         "price":5,
                         "category": "cap",
                         "id":1,
                         "imageUrl":"./images/cap_1.jpg"
-                    }
-
+                    }*/
+const handleViewProduct= () =>{
+    setSelectedProduct(product);
+    <Link to="/store/product-details"/>
+}
     return (
         <>
             <article className="card-product">
@@ -18,7 +24,7 @@ const Card = (props) => {
                 <div>
                     <p className="card-bread-select">{product.title}</p>
                     <p className="card-price">{product.price + " €"}</p>
-                    <button className="btn">View Product</button>
+                    <button onClick={()=>handleViewProduct()} className="btn">View Product</button>
                 </div>
             </article>
         </>

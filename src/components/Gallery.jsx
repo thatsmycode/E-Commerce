@@ -3,14 +3,14 @@ import products from "../../products.json"
 import Card from "./Card";
 import './gallery.css'
 
-const Gallery = () => {
-  
+const Gallery = (props) => {
+  const {setSelectedProduct} = props;
     return(
         <div className="gallery-content">
         {
         products.map((each, index)=>{
             return (
-            <Card key={index} product={each}/>   
+            <Card key={index} product={each} setSelectedProduct={setSelectedProduct}/>   
             )
         })
         }

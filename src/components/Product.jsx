@@ -1,13 +1,12 @@
 import { useState } from "react";
 import "./product.css";
+import { useParams } from "react-router-dom";
 
 const Product = (props) => {
     const [productHaveSize, setProductHaveSize] = useState(false);
     const [productWithSize, setProductWithSize] = useState("m");
     const [quantity, setQuantity] = useState(1);
- 
-
-    const {title, description, price, category, id, imageUrl} = props.selectedProduct;
+    const {title, description, price, category,id, imageUrl} = props.selectedProduct;
 
     const handleSize = (selectedSize) =>{
         setProductHaveSize(true);

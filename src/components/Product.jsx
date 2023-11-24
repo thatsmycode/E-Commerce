@@ -7,7 +7,8 @@ const Product = (props) => {
     const [productHaveSize, setProductHaveSize] = useState(false);
     const [productWithSize, setProductWithSize] = useState("m");
     const [quantity, setQuantity] = useState(1);
-    const {title, description, price, category,id, imageUrl} = props.selectedProduct;
+    const {title, description, price,  imageUrl} = props.selectedProduct;
+    const [newPrice, setPrice] = useState(price);
     
 
     const handleSize = (selectedSize) =>{
@@ -15,6 +16,7 @@ const Product = (props) => {
         const item = {...props.selectedProduct};
         item.size= selectedSize;
         item.quantity=quantity; 
+        item.price = newPrice;
         setProductWithSize(item);
     }
     const handleBuy = () =>{
@@ -26,10 +28,16 @@ const Product = (props) => {
     }
     const handleIncrease = () =>{
         setQuantity(quantity +1);
+        setPrice((previous)=>{
+           return previous + price
+        })
     }
     const handleDecrease = () =>{
         if(quantity > 1){
             setQuantity(quantity -1);
+            setPrice((previous)=>{
+                return previous - price
+             })
         }
     }
 
@@ -41,7 +49,7 @@ const Product = (props) => {
             <img className="product-img" src={imageUrl} alt={title+" image"}></img>
             <h2 className="product-description">{description}</h2>
             <div className="quantity-container">
-            <h2 className="product-price">{price}€</h2>
+            <h2 className="product-price">{newPrice}€</h2>
             <div className="quantity-container-right">
                 <button id="increaseQ" onClick={()=> handleDecrease() }>-</button>
                 <h2 className="product-quantity">{quantity}</h2>

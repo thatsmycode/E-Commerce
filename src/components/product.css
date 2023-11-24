@@ -61,3 +61,14 @@ img{
     font-size: 25px;
     font-weight: bold;
   }
+.modal{
+  position:absolute;
+  background-color: white;
+  color: black;
+  width: 30vw;
+  right: 0;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

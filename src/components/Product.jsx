@@ -7,9 +7,9 @@ const Product = (props) => {
     const [productHaveSize, setProductHaveSize] = useState(false);
     const [productWithSize, setProductWithSize] = useState("m");
     const [quantity, setQuantity] = useState(1);
-    const {title, description, price,  imageUrl} = props.selectedProduct;
+    const {title, description, price, category,  imageUrl} = props.selectedProduct;
     const [newPrice, setPrice] = useState(price);
-    
+  
 
     const handleSize = (selectedSize) =>{
         setProductHaveSize(true);
@@ -22,9 +22,11 @@ const Product = (props) => {
     const handleBuy = () =>{
         if (productHaveSize){
             props.addToCart(productWithSize);
+            alert(`you added ${quantity} ${category} for the amount of ${newPrice}€ to your cart`)
         }else{
             alert("YOU HAVEN'T SELECTED A SIZE")
         }
+        
     }
     const handleIncrease = () =>{
         setQuantity(quantity +1);
@@ -44,12 +46,12 @@ const Product = (props) => {
 
 
 
-    return(
+    return( 
         <div className="product-container">
             <img className="product-img" src={imageUrl} alt={title+" image"}></img>
             <h2 className="product-description">{description}</h2>
             <div className="quantity-container">
-            <h2 className="product-price">{newPrice}€</h2>
+            <h2 className="product-price">{price}€</h2>
             <div className="quantity-container-right">
                 <button id="increaseQ" onClick={()=> handleDecrease() }>-</button>
                 <h2 className="product-quantity">{quantity}</h2>

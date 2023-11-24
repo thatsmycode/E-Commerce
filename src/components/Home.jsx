@@ -21,35 +21,35 @@ return (
 </div>
 <div id="carousel-container">
        <div>
-        <img src="../public/images/event8.png" alt="event4" className="carousel-item" />
+        <img src="/images/event8.png" alt="event4" className="carousel-item" />
        <p>New Years Eve 2024 Ironhack Private Party</p>
        </div>
        <div>
-        <img src="../public/images/event7.png" alt="event4" className="carousel-item" />
+        <img src="/images/event7.png" alt="event4" className="carousel-item" />
        <p>2manydjs + Soulwax - Space Ibiza </p>
        </div>
        <div>
-        <img src="../public/images/event6.png" alt="event4" className="carousel-item" />
-       <p>John Talabot - Apolo Barcelona</p>
+        <img src="/images/event6.png" alt="event4" className="carousel-item" />
+       <p>John Talabot - Sala Apolo</p>
        </div>
        <div>
-        <img src="../public/images/event5.png" alt="event4" className="carousel-item" />
+        <img src="/images/event5.png" alt="event4" className="carousel-item" />
        <p>El Dirty VS Mandanga - Razzmatazz Clubs</p>
        </div>
         <div>
-        <img src="../public/images/event1.png" alt="event1" className="carousel-item" />
+        <img src="/images/event1.png" alt="event1" className="carousel-item" />
         <p>Coldplay Plaza Catalunya</p>
         </div>
        <div>
-        <img src="../public/images/event4.jpg" alt="event4" className="carousel-item" />
-       <p>Dj SeinFiled - SoundEat </p>
+        <img src="/images/event4.jpg" alt="event4" className="carousel-item" />
+       <p>Dj SeinField - SoundEat </p>
        </div>
         <div>
-        <img src="../public/images/event2.png" alt="event2" className="carousel-item" />
+        <img src="/images/event2.png" alt="event2" className="carousel-item" />
         <p>The Eyes Rock Bar</p>
         </div>
         <div>
-        <img src="../public/images/event3.png" alt="event3" className="carousel-item" />
+        <img src="/images/event3.png" alt="event3" className="carousel-item" />
        <p>Los Soprano Razzmatazz</p>
        </div>
 </div>

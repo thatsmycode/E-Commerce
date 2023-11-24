@@ -8,11 +8,11 @@ const NavBar = () => {
 
 return (
     <nav id="navbar">
-        <Link to="/"><img src="../public/images/planetaria-logo.png" alt="" /></Link>
+        <Link to="/"><img src="/images/planetaria-logo.png" alt="" /></Link>
         <p>Planetaria Music</p>
-        <img src="../public/images/e-commerce.png" alt="carrito-ecomerce" />
-        <img src="../public/images/navbar-filter.png" alt="navbar-filter"/>
-        <img src="../public/images/navbar-button.png" alt="navbar-button"/>
+        <img src="/images/e-commerce.png" alt="carrito-ecomerce" />
+        <img src="/images/navbar-filter.png" alt="navbar-filter"/>
+        <img src="/images/navbar-button.png" alt="navbar-button"/>
     </nav>
 )
 }

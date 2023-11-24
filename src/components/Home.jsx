@@ -13,15 +13,15 @@ return (
 </div>
 
 <div id="coming-events">
-    <div class="carousel-container">
+    <div className="carousel-container">
         <p>Coming events</p>
-        <img src="../public/images/event1" alt="event1" class="carousel-item" />
+        <img src="../public/images/event1" alt="event1" className="carousel-item" />
         <p>Coldplay Plaza Catalunya</p>
-        <img src="../public/images/event2" alt="event2" class="carousel-item" />
+        <img src="../public/images/event2" alt="event2" className="carousel-item" />
         <p>The Eyes Rock Bar</p>
-        <img src="../public/images/event3" alt="event3" class="carousel-item" />
+        <img src="../public/images/event3" alt="event3" className="carousel-item" />
         <p>Los Soprano Razzmatazz</p>
-        <img src="../public/images/event4" alt="event4" class="carousel-item" />
+        <img src="../public/images/event4" alt="event4" className="carousel-item" />
     </div>
 </div>
 

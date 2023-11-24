@@ -8,6 +8,7 @@ const Product = (props) => {
     const [productWithSize, setProductWithSize] = useState("m");
     const [quantity, setQuantity] = useState(1);
     const {title, description, price, category,id, imageUrl} = props.selectedProduct;
+    
 
     const handleSize = (selectedSize) =>{
         setProductHaveSize(true);
@@ -15,8 +16,6 @@ const Product = (props) => {
         item.size= selectedSize;
         item.quantity=quantity; 
         setProductWithSize(item);
-        
-       console.log(item)
     }
     const handleBuy = () =>{
         if (productHaveSize){

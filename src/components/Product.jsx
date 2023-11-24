@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
+import { useNavigate } from "react-router";
 import "./product.css";
 
 
@@ -10,7 +11,7 @@ const Product = (props) => {
     const {title, description, price, category,  imageUrl} = props.selectedProduct;
     const [newPrice, setPrice] = useState(price);
   
-
+    const navigate = useNavigate();
     const handleSize = (selectedSize) =>{
         setProductHaveSize(true);
         const item = {...props.selectedProduct};
@@ -23,6 +24,7 @@ const Product = (props) => {
         if (productHaveSize){
             props.addToCart(productWithSize);
             alert(`you added ${quantity} ${category} for the amount of ${newPrice}€ to your cart`)
+            navigate("/store")
         }else{
             alert("YOU HAVEN'T SELECTED A SIZE")
         }

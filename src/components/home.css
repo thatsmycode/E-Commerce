@@ -2,17 +2,35 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
-#new-arrivals img{
+
+#new-arrivals p{
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+#home-img{
     width: 100%;
+    height: 400px;
+    background-image: url('/images/home-image.png');
+    background-size: cover;
+    background-position: 50% 30%;
 }
 
 #home-btn {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+
+.link-btn {
+    width: 100%;
+    max-width: 450px;
 }
 
 
@@ -37,7 +55,7 @@ display:none
 
 .carousel-item {
     flex: 0 0 auto; /* Ensure the items don't grow and maintain their original size */
-    margin-right: 10px; /* Adjust the spacing between carousel items */
+    margin-right: 35px; /* Adjust the spacing between carousel items */
 }
 
 #coming-events p {

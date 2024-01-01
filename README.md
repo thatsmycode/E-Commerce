@@ -1,3 +1,6 @@
+#Deployed project:
+https://unrivaled-alpaca-e95d08.netlify.app/
+
 # Planetaria Music - E Commerce App
 
 ### Project Slides:
